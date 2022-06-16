@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5cf29bbf7c8914ebce4da990ab1c18, type: 3}
+  m_Name: Nivel Dificil
+  m_EditorClassIdentifier: 
+  cantEnemigos: 10
+  spawnPoints:
+  - {x: 1, y: 1, z: 5}
+  - {x: 2, y: 2, z: 5}
+  - {x: 3, y: 3, z: 5}
+  - {x: 4, y: 4, z: 5}
+  - {x: 5, y: 5, z: 5}
+  prefabs:
+  - {fileID: 1675600480872430596, guid: c57489d298c565448a14b0c5da123ffa, type: 3}
+  - {fileID: 1401376213986221133, guid: 8e34e614fc5e44a4aa3919ffa7912dbc, type: 3}
+  - {fileID: 5630353622801119951, guid: d696fb0f224a11745bea851cb167e75f, type: 3}
+  - {fileID: 8492397493879891347, guid: d370362e999d486449bd05da2d0bc296, type: 3}
